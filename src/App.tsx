@@ -35,11 +35,11 @@ export default function App() {
       newWord.splice(cuerrntindex, 1);
       const next = Math.floor(Math.random() * newWord.length);
       console.log(newWord);
-      if (newWord.length > 1) {
+      if (newWord.length >= 1) {
         setScore(score + 1);
         setCuerrntindex(next);
         setTimer(2);
-      } else if (newWord.length == 1) {
+      } else if (newWord.length === 0) {
         setScore(score + 1);
         setWin(true);
         setStart(false)
