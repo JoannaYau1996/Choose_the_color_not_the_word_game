@@ -129,7 +129,7 @@ export const words = [{
     answord: "red",
     anscolor: "pink",
   },
-  {
+        {
     answord: "pink",
     anscolor: "yellow",
   },
@@ -147,7 +147,7 @@ export const words = [{
   },
   {
     answord: "orange",
-    anscolor: "pink",
+    anscolor: "r",
   },
   {
     answord: "green",
